@@ -6,19 +6,24 @@ public class Teacher
 	private String name;
 	private int salary;
 	
-	public Student(int id,String name,int salary)
+	public Teacher(int id,String name,int salary)
 	{
 		this.id=id;
 		this.name=name;
 		this.salary=salary;
 	}
 	
-	public void setgrade(int grade)
+	public String getName()
 	{
-		this.grade=grade;
+		return name;
 	}
-	public void updatefeepaid(int fee)
+	public int getId()
 	{
-		this.feePaid=fee;
+		return id;
 	}
+	public int getSalary()
+	{
+		return salary;
+	}
+	
 }
