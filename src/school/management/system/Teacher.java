@@ -1,20 +1,16 @@
 package school.management.system;
 
-public class Student
+public class Teacher
 {
 	private int id;
 	private String name;
-	private int grade;
-	private int feePaid;
-	private int feetotal;
+	private int salary;
 	
-	public Student(int id,String name,int grade)
+	public Student(int id,String name,int salary)
 	{
 		this.id=id;
 		this.name=name;
-		this.grade=grade;
-		this.feetotal=0;
-		this.feePaid=619000;
+		this.salary=salary;
 	}
 	
 	public void setgrade(int grade)
