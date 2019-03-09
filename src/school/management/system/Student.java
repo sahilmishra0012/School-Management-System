@@ -16,13 +16,35 @@ public class Student
 		this.feetotal=0;
 		this.feePaid=619000;
 	}
-	
+
 	public void setgrade(int grade)
 	{
 		this.grade=grade;
 	}
+	
 	public void updatefeepaid(int fee)
 	{
-		this.feePaid=fee;
+		this.feePaid+=fee;
 	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public int getFeePaid() {
+		return feePaid;
+	}
+
+	public int getFeetotal() {
+		return feetotal;
+	}
+	
 }
