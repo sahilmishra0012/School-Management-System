@@ -2,6 +2,9 @@ package school.management.system;
 import java.util.*;
 public class Main
 {
+	private static List<Teacher> teachers;
+	private static List<Student> students;
+
 	public static void main(String[] args)
 	{
 		boolean x=true;
@@ -30,6 +33,7 @@ public class Main
 			}
 		}
 		System.out.println("Students and Teachers entered. Create School");
+		School lpc=new School(teachers,students);
 		sc.close();
 	}
 }
