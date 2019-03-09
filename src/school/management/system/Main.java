@@ -11,7 +11,17 @@ public class Main
 		{
 			case 1:
 				System.out.println("Enter teacher's ID, Name and Salary");
-				
+				int tid=sc.nextInt();
+				String tname=sc.nextLine();
+				int salary=sc.nextInt();
+				Teacher name=new Teacher;
+			break;
+			case 2:
+				System.out.println("Enter Student's ID, Name and Grade");
+				int sid=sc.nextInt();
+				String sname=sc.nextLine();
+				int grade=sc.nextInt();
+				Teacher name=new Teacher
 		}
 		
 		
